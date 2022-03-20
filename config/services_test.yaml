@@ -1,0 +1,3 @@
+services:
+    App\Service\Client\UserClientInterface:
+        class: App\Service\Client\DummyUserClient
