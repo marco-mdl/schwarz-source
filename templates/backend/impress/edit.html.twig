@@ -5,9 +5,9 @@
 {% block body %}
     <h1>Edit Impress</h1>
 
-    {{ include('impress/_form.html.twig', {'button_label': 'Update'}) }}
+    {{ include('backend/impress/_form.html.twig', {'button_label': 'Update'}) }}
 
     <a href="{{ path('backend_impress_index') }}">back to list</a>
 
-    {{ include('impress/_delete_form.html.twig') }}
+    {{ include('backend/impress/_delete_form.html.twig') }}
 {% endblock %}
